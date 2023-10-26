@@ -1,0 +1,21 @@
+body{
+    display: block;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+.container {
+
+display: flex;
+align-items: center;
+
+}
+
+.image {
+flex: 0;
+max-width: 15%; /* Adjust this value to control the width of the image */
+}
+
+.text {
+flex: 1;
+padding: 100px; /* Adjust the spacing as needed */
+}
